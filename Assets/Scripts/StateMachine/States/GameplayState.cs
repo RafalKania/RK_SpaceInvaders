@@ -43,6 +43,7 @@ namespace CodeSoldiers
             _enemyShotPauseTime = mainManager._GameConfig._EnemyShotPauseTime;
 
             mainManager._PlayerCharacter._Move = false;
+            mainManager._PlayerCharacter._LivePoints = mainManager._GameConfig._MaxPlayerLives;
             mainManager._PlayerManager._Score = 0;
 
             mainManager._PlayerCharacter?.gameObject.SetActive(true);
