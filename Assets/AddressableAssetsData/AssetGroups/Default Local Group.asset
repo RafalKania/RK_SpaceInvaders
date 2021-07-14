@@ -63,26 +63,26 @@ MonoBehaviour:
     m_Address: Assets/GameElements/Prefabs/NPC_2_Character.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 6985625344326399913, guid: 3228cb467bab7424a9a82ddefded8009, type: 3}
-    m_TargetAsset: {fileID: 6985625344326399913, guid: 3228cb467bab7424a9a82ddefded8009, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 5e52100cbadcb1845a0a4ac990f65f55
     m_Address: Assets/GameElements/Prefabs/PlayerCharacter.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 7031212974010298066, guid: 5e52100cbadcb1845a0a4ac990f65f55, type: 3}
-    m_TargetAsset: {fileID: 7031212974010298066, guid: 5e52100cbadcb1845a0a4ac990f65f55, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 05129ab656ea88a41bb97028bb11cd05
     m_Address: Assets/GameElements/Prefabs/NPC_1_Character.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 7538218885965642246, guid: 05129ab656ea88a41bb97028bb11cd05, type: 3}
-    m_TargetAsset: {fileID: 7538218885965642246, guid: 05129ab656ea88a41bb97028bb11cd05, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: ddc0f71467e75024eb41ca9b86655ea4
     m_Address: Assets/GameElements/Prefabs/NPC_3_Character.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 8307290921763635132, guid: ddc0f71467e75024eb41ca9b86655ea4, type: 3}
-    m_TargetAsset: {fileID: 8307290921763635132, guid: ddc0f71467e75024eb41ca9b86655ea4, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 6ac277bfbbddac54bbd949370cf6e5c5
     m_Address: Assets/GameElements/Prefabs/UI/HighScoreText.prefab
     m_ReadOnly: 0
@@ -93,14 +93,14 @@ MonoBehaviour:
     m_Address: Assets/GameElements/Materials/InvulnerabilityShield.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 2100000, guid: ce6fc75fb3c0a464d9ab606b02e9f291, type: 2}
-    m_TargetAsset: {fileID: 2100000, guid: ce6fc75fb3c0a464d9ab606b02e9f291, type: 2}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: f5c472db9f395984aba04155199cadd5
     m_Address: Assets/GameElements/Prefabs/Managers/MainManager.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 4355960929294258741, guid: f5c472db9f395984aba04155199cadd5, type: 3}
-    m_TargetAsset: {fileID: 4355960929294258741, guid: f5c472db9f395984aba04155199cadd5, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 4bdb5badf3284664e931e72dbb361cd3
     m_Address: Cube
     m_ReadOnly: 0
@@ -109,12 +109,6 @@ MonoBehaviour:
     m_TargetAsset: {fileID: 0}
   - m_GUID: 174a1fecaa2f14e4e8b7a47b0a9cf2aa
     m_Address: Assets/GameElements/Prefabs/Projectile.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: efb937b90d7b17148864da768a7d8914
-    m_Address: Assets/Scenes/Main.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}

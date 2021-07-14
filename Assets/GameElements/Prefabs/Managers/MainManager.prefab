@@ -71,11 +71,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c223274306564f41b8837f6998be615, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _highScoreData:
-    _ScoreDate: 
-    _Score: 0
-  _gameData:
-    _HighScoresData: []
 --- !u!114 &4355960929294258737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,7 +83,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d60751f5f6405143b44efb982c5ac8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _direction: {x: 0, y: 0, z: 0}
 --- !u!114 &4355960929294258736
 MonoBehaviour:
   m_ObjectHideFlags: 0
