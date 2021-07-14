@@ -90,7 +90,7 @@ namespace CodeSoldiers
 
         void Awake()
 		{
-            //Initialize();
+            Initialize();
             
         }
 
