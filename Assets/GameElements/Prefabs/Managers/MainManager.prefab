@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4355960929294258741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4355960929294258740}
+  - component: {fileID: 4355960929294258743}
+  - component: {fileID: 4355960929294258742}
+  - component: {fileID: 4355960929294258737}
+  - component: {fileID: 4355960929294258736}
+  - component: {fileID: 4355960929294258739}
+  m_Layer: 0
+  m_Name: MainManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4355960929294258740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4355960929294258741}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4355960929294258743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4355960929294258741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84aadd4bc56a0244d9dda09566b58aef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dataStorage: {fileID: 0}
+  _inputManager: {fileID: 0}
+  _cameraManager: {fileID: 0}
+  _playerManager: {fileID: 0}
+  _enemyManager: {fileID: 0}
+  _uiManager: {fileID: 0}
+  _playerCharacter: {fileID: 0}
+  _playerSpawnPoint: {fileID: 0}
+  _enemiesSpawnPoint: {fileID: 0}
+  _bulletPrefab: {fileID: 4617728527435143694, guid: 174a1fecaa2f14e4e8b7a47b0a9cf2aa, type: 3}
+  _HighScoreDataToSave: []
+  _gameConfig: {fileID: 11400000, guid: 8fc747b7caa8ab84997cb426d958deb2, type: 2}
+--- !u!114 &4355960929294258742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4355960929294258741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c223274306564f41b8837f6998be615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _highScoreData:
+    _ScoreDate: 
+    _Score: 0
+  _gameData:
+    _HighScoresData: []
+--- !u!114 &4355960929294258737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4355960929294258741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d60751f5f6405143b44efb982c5ac8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _direction: {x: 0, y: 0, z: 0}
+--- !u!114 &4355960929294258736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4355960929294258741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3645843b045ccf94993b8fd8a9999fd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerCharacterToSpawn: {fileID: 906519222, guid: 5e52100cbadcb1845a0a4ac990f65f55, type: 3}
+  _score: 0
+--- !u!114 &4355960929294258739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4355960929294258741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f490994811cd3a4a857f3664f91f0fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemiesToSpawn:
+  - {fileID: 7552178062922225782, guid: 05129ab656ea88a41bb97028bb11cd05, type: 3}
+  - {fileID: 3020094062326469734, guid: 3228cb467bab7424a9a82ddefded8009, type: 3}
+  - {fileID: 5231944946675960683, guid: ddc0f71467e75024eb41ca9b86655ea4, type: 3}
+  _enemies: []
+  _deadEnemies: []
+  _wavesCount: 0
+  _parentPoint: {fileID: 0}
+  _moveBounds: 0
+  _moveHorizontalPauseTime: 0
+  _moveVerticalPauseTime: 0
+  _canEnemyWaveMove: 0
+  _isOnLeftSide: 0
